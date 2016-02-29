@@ -1,0 +1,69 @@
+<template name="passingPlays">
+  <h2>Resolve Passing Plays</h2>
+  <p><strong>Before Rolling passing dice</strong></p>
+
+  <ul>
+    <li>Defense may play special cards like (Sack, Blitz, Awareness, Pass Pressure).</li>
+    <li>
+      If applicable, Offense must declare player token’s roll, blocker or route.
+      <ul>
+        <li><i>Blocker</i> - gives a chance for reroll (optional). No need to roll the color associated with blocker to be elegible for reroll.</li>
+        <li><i>Route</i> - gives one extra side on dice for completing a pass.</li>
+      </ul>
+    </li>
+  </ul>
+
+
+
+  <p><strong>Roll Results</strong></p>
+  <p>Receivers on a play card are color coded and match the colors on the passing dice.</p>
+  <p>
+
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+      <i class="fa fa-circle fa-stack-1x" style="color: #3FA9F5; margin-top: -2px; font-size: small"></i>
+    </span>
+
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+      <i class="fa fa-circle fa-stack-1x" style="color: #7AC943; margin-top: -2px; font-size: small"></i>
+    </span>
+
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+      <i class="fa fa-circle fa-stack-1x" style="color: #FF1D25; margin-top: -2px; font-size: small"></i>
+    </span>
+
+    The ball is completed to color rolled unless a Defense token is on the zone where routes ends for completion.
+
+  </p>
+
+  <p>
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+      <i class="fa fa-circle fa-stack-1x" style="color: #FF931E; margin: -6px -5px; font-size: 10px"></i>
+      <i class="fa fa-circle fa-stack-1x" style="color: #000000; margin: 3px 0 0 5px; font-size: 10px"></i>
+    </span>
+
+    You can choose any color you want to complete to.
+  </p>
+
+  <p>
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+    </span>
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+    </span>
+
+    Incomplete Pass.
+  </p>
+
+
+  <p><strong>Defense guessed Passing Zone</strong> - If the color rolled route ends in a zone with a defense token, It's Incomplete. Defense may play Interception Card.</p>
+
+
+  If pass is complete,
+    The play card shows how many yards the receiver already gained. Roll d6 and follow rushing rules. First roll ignores the Fumble incidental. Add results to already gained yards from pass.
+
+</template>

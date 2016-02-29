@@ -1,0 +1,51 @@
+<template name="rulesSpecialTeams">
+  <h2>Special Teams</h2>
+  <div class="row">
+    <div class="col-sm-3">
+      <h3>Kickoff</h3>
+      <p>Roll d6 - Roll determines where the receiving team starting point is.</p>
+      <ul>
+        <li>6 - Touchback</li>
+        <li>5 - start in the 1 yard line</li>
+        <li>4 - start in the 5 yard line</li>
+        <li>3 - start in the 10 yard line</li>
+        <li>2 - start in the 15 yard line</li>
+        <li>1 - start in the 20 yard line</li>
+      </ul>
+    </div>
+
+    <div class="col-sm-3">
+      <h3>Punt</h3>
+      <p>Roll d6 - If punt was made between both 40 yard lines follow Kickoff dice results</p>
+      <ul>
+        <li>6 - Touchback</li>
+        <li>5 - 60 yards</li>
+        <li>4 - 55 yards</li>
+        <li>3 - 50 yards</li>
+        <li>2 - 45 yards</li>
+        <li>1 - 40 yards</li>
+      </ul>
+    </div>
+
+    <div class="col-sm-3">
+      <h3>Kickoff/Punt Return</h3>
+      <p>Roll two d6s</p>
+      <ul>
+        <li>10+ - Breakthrough (Two Breakthroughs in a row return is for a touchdown)</li>
+        <li>1-9 Yards (Starting Point + Yards gained)</li>
+      </ul>
+    </div>
+
+    <div class="col-sm-3">
+      <h3>Field Goal</h3>
+      <p>Roll d6, if attempt is from:</p>
+      <ul>
+        <li>1-20 yard line - 1 is miss</li>
+        <li>21-30 yard line - 1-2 is miss</li>
+        <li>31-40 yard line - 1-3 is miss</li>
+        <li>40-50 yard line - 1-5 is miss</li>
+        <li>51+ can not attempt</li>
+      </ul>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,60 @@
+<template name="gameComponents">
+  <div class="container">
+    <h2>Game Components</h2>
+
+    <!-- <img src="/svg/football_Tracker.svg"> -->
+    <div class="row">
+      <div class="col-sm-6 component">
+        <img src="/svg/playmats/{{team.playmat}}" class="img-thumbnail">
+        <h3>Customized Play Tracker</h3>
+        <p>Download and print your customized play tracker mat. When you buy the game, it does not come with a mat. So you have to either print one here or use the Scoreboard app specifically made for this game.</p>
+
+        <h4>Select Team</h4>
+        {{#each teams}}
+          <img src="/svg/team-logos/{{ logo }}" class="team-logo" data-team="{{name}}">
+        {{/each}}
+      </div>
+
+      <div class="col-sm-3 component">
+        <img src="/images/proset/proset-01.png" class="img-thumbnail">
+        <h3>Playbook Cards</h3>
+        <p>With 3 formations and 16 plays included in starter set you can atack with many possible ways.</p>
+        <hr>
+        <img src="/svg/defense/defense-formations-01.svg" class="img-thumbnail">
+        <h3>Defense Formations Cards</h3>
+        <p>There are 5 formations with starter set to use against any type of play.</p>
+      </div>
+
+
+      <div class="col-sm-3 component">
+        <div class="row die-component">
+          <div class="col-md-3">
+            <img src="/svg/passing-dice.svg">
+          </div>
+          <div class="col-md-9">
+            <h3>One Passing Die d6</h3>
+            <p>Receivers on a play card are color coded and match the colors on the passing dice.</p>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row die-component">
+          <div class="col-md-3">
+            <img src="/svg/rushing-dice.svg">
+          </div>
+          <div class="col-md-9">
+            <h3>Two Rushing Dice d6</h3>
+            <p>These dice will determine yards gained when rushing with the ball</p>
+          </div>
+        </div>
+
+        <hr>
+        <img src="/svg/special-cards/special-cards-09.svg" class="img-thumbnail">
+        <h3>Special Cards</h3>
+        <p>Surprise your opponent with special cards that make the game more interesting.</p>
+
+      </div>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,100 @@
+// blue   3FA9F5
+// green  7AC943
+// orange FF931E
+// red    FF1D25
+
+body {
+  padding-top: 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default {
+  background-color: #3FA9F5;
+  // border-bottom: 1px solid #1c73a5;
+  border-bottom: none;
+
+
+  .navbar-brand, .navbar-brand:hover, .navbar-brand:visited {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  .navbar-nav > li > a {
+    color: white;
+  }
+
+  .navbar-nav > li > a:hover {
+    color: white;
+    opacity: 0.75;
+  }
+
+  .navbar-nav > li > a:visited {
+    color: white;
+    opacity: 0.75;
+  }
+}
+
+h2, h3 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #FF931E;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+.component {
+  h3 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  // img {
+  //   float: left;
+  //   margin-bottom: 1em;
+  // }
+}
+
+#play-order {
+  text-align: center;
+
+  .icon {
+    font-size: 2em;
+  }
+
+  .icon-male {
+    margin: 0 -5px;
+  }
+
+  h3 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  ul, ol {
+    text-align: left;
+  }
+}
+
+.card {
+  margin-bottom: 30px;
+
+  @media (max-width: 768px) {
+    img { width: 100% }
+  }
+}
+
+.die-component {
+  img { width: 60px; }
+  h3 { margin-top: 10px; }
+}
+
+.team-logo {
+  max-width: 40px;
+  max-height: 40px;
+  padding: 2px;
+  cursor: pointer;
+}

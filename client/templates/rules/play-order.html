@@ -1,0 +1,42 @@
+<template name="rulesPlayOrder">
+  <h2>Play Order</h2>
+  <div id="play-order" class="row">
+    <div class="col-sm-3">
+      <span class="icon icon-users"></span>
+      <h3>Huddle</h3>
+      <ol>
+        <li>Offense picks play. Place face down in front. Can not look at the card again until the Snap action. </li>
+        <li>Defense picks formation.</li>
+      </ol>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="/svg/get-in-formation.svg" style="height: 28px">
+      <h3>Line of Scrimmage</h3> (Get in formation)
+      <ol>
+        <li>Offence places formation Card and places player token in position on one of the <img src="/svg/player-grey.svg"> spots.</li>
+        <li>Defense shows formation and places 2 zone tokens</li>
+      </ol>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="/svg/player-grey.svg" style="opacity: 0.35">
+      - - - -
+      <span class="fa fa-angle-right"></span>
+      <img src="/svg/player-grey.svg">
+      <h3>Motion/Audible</h3>
+      <ol>
+        <li>Offense may move player token to another <img src="/svg/player-grey.svg"> spot.</li>
+         <li>Offense may change the play. Must keep same formation when changing plays.</li>
+        <li>Defense may react to Offense motion or audible by changing zone tokens</li>
+      </ol>
+    </div>
+
+    <div class="col-sm-3">
+      <span class="icon icon-football"></span>
+      <h3>Snap</h3>
+      <p>(Show playcard and resolve)</p>
+
+    </div>
+  </div>
+</template>

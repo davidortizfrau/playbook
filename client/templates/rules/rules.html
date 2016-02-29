@@ -1,0 +1,25 @@
+<template name="rules">
+  <div class="container">
+    <h2>Overview</h2>
+    <p>Playbook is a card game about football.</p>
+  </div>
+
+
+  <div class="container">
+    {{> setup}}
+    {{> rulesPlayOrder}}
+    <div class="row">
+      <div class="col-sm-6">
+        {{> rushingPlays}}
+      </div>
+      <div class="col-sm-6">
+        {{> passingPlays}}
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    {{> rulesSpecialTeams}}
+  </div>
+
+</template>
