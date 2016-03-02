@@ -1,8 +1,3 @@
-Session.set('ballOn', 35);
-Session.set('down', 1);
-Session.set('homeScore', 0);
-Session.set('visitorScore', 0);
-
 let teams = [
   {name: 'noTeam', logo: 'noteam.svg', playmat: 'noteam.png', colors: {primary: '0f98d5', secondary: 'dd6226'}},
   {name: 'broncos', logo: 'Denver_Broncos_logo.svg', playmat: 'broncos.svg', colors: {primary: '12264a', secondary: 'dd6226'}},
